@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Header from './components/Header';
+import Footer from './components/Footer';
+import BasicTextFields from './components/Textfield';
 import './App.css';
 
 // function App() {
@@ -48,21 +50,27 @@ import './App.css';
 //   }
 // }
 
-class Header extends React.Component{
-  render(){
-    return(
-      <h3>Header</h3>
-    )
-  }
-}
+// class Header extends React.Component{
+//   render(){
+//     return(
+//       <div className="header">
+// <h2 style = {{color:'white' , textAlign:'center'}}>Header</h2>
+//       </div>
+      
+//     )
+//   }
+// }
 
-class Footer extends React.Component{
-  render(){
-    return(
-      <h3>Footer</h3>
-    )
-  }
-}
+// class Footer extends React.Component{
+//   render(){
+//     return(
+//       <div className="footer">
+//   <h2>Footer</h2>
+//       </div>
+      
+//     )
+//   }
+// }
 
 class App extends React.Component{
   render(){
@@ -70,6 +78,10 @@ class App extends React.Component{
      <div>
        <Header/>
       <h1>Main Component</h1>
+      <button type="button" className="btn btn-primary">Primary</button>
+      <br/>
+      <br/>
+      <BasicTextFields/>
       <Footer />
      </div> 
     )
