@@ -1,0 +1,15 @@
+.header{
+  background-color: beige;
+  font-size: 18px;
+  height: 80px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.footer{
+  background-color: cadetblue;
+  font-size: 18px;
+  height: 80px;
+  padding-top: 5px;
+  text-align: center;
+}
